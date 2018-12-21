@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/fb66199/2147483647/resize/800x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2F48%2F85%2F8f189edc45ebb77607709c3c31d1%2Fthinkstockphotos-629285904.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(65, 164, 195, 0.76);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: 'Roboto', sans-serif ;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #0512af;
+    text-decoration: none;
+}
+
+.form .register-form{
+    display: none;
+}
